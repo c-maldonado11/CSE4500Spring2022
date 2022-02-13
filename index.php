@@ -59,7 +59,6 @@ $json_data = json_decode($json_file,true);
           </div>
         </div>
       <?php  } ?>
-        </div>
       </div>
       </p>
       <hr>
