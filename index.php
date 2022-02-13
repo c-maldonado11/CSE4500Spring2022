@@ -57,8 +57,8 @@ $json_data = json_decode($json_file,true);
           <div class="flex-shrink-0">
             <span class="text-primary"><?php echo $education['period']; ?></span>
           </div>
-        </div>
       <?php  } ?>
+        </div>
       </div>
       </p>
       <hr>
