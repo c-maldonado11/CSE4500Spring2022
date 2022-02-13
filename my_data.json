@@ -42,16 +42,16 @@
 
   "interests":[
     {
-      "name":"Running"
+      "activity":"Running"
     },
     {
-      "name":"Drawing"
+      "activity":"Drawing"
     },
     {
-      "name":"Exercising"
+      "activity":"Exercising"
     },
     {
-      "name":"Volunteering at animal shelter"
+      "activity":"Volunteering at animal shelter"
     }
   ]
 }
