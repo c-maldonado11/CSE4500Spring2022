@@ -43,19 +43,19 @@ $json_data = json_decode($json_file,true);
         </div>
       </div>
       <hr>
-      <div id="experience" class="content-item">
+
+    <div id="education" class="content-item">
         <div class="vertical-center">
         <h4>Education</h4>
         <p>
-      <?php foreach($json_data['experience'] AS $experience) { ?>
+      <?php foreach($json_data['education'] AS $education) { ?>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
-            <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
-            <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
-            <p><?php echo $experience['description']; ?></p>
+            <h3 class="mb-0"><?php echo $education['school']; ?></h3>
+            <div class="subheading mb-3"><?php echo $education['major']; ?></div>
           </div>
           <div class="flex-shrink-0">
-            <span class="text-primary"><?php echo $experience['period']; ?></span>
+            <span class="text-primary"><?php echo $education['period']; ?></span>
           </div>
         </div>
       <?php  } ?>
