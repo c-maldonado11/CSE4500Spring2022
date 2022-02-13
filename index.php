@@ -51,6 +51,8 @@ $json_data = json_decode($json_file,true);
         </div>
       </div>
       <hr>
+      <h4>Experience</h4>
+        <p>
       <?php foreach($json_data['experience'] AS $experience) { ?>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
@@ -63,6 +65,8 @@ $json_data = json_decode($json_file,true);
           </div>
         </div>
       <?php  } ?>
+        </p>
+      <hr>
       <div id="skills" class="content-item">
         <div class="vertical-center">
           <h4>Skills</h4>
