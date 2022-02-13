@@ -31,10 +31,12 @@
 
   "skills":[
     {
-      "languages":"Javascript, Python, HTML, C++"
+      "type": "languages",
+      "list":"Javascript, Python, HTML, C++"
     },
     {
-      "technologies":"Windows, Linux, Android, SaltStack, Visual Studio, Github, Unity"
+      "type": "technologies",
+      "list":"Windows, Linux, Android, SaltStack, Visual Studio, Github, Unity"
     }
   ],
 

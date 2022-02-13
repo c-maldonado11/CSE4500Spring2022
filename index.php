@@ -91,8 +91,9 @@ $json_data = json_decode($json_file,true);
           <p><?php foreach($json_data['skills'] AS $skills) { ?>
         <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="flex-grow-1">
-          <div class="subheading mb-3"><?php echo $skills['languages']; ?></div>
-          <div class="subheading mb-3"><?php echo $skills['technologies']; ?></div>
+            <h3 class="mb-0"><?php echo $skills['type']; ?></h3>
+            <div class="subheading mb-3"><?php echo $skills['list']; ?></div>
+          </div>
           </div>
         </div>
       <?php  } ?>
